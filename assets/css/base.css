@@ -1,0 +1,12 @@
+/* Design tokens, reset, and global element defaults. Loaded first. */
+
+:root{
+  --navy:#071725;--navy2:#0b2d50;--blue:#1e6fa8;--sky:#e8f3fb;--gold:#d9a62b;
+  --silver:#cbd3dc;--ink:#17212b;--muted:#5a6875;--white:#fff;--soft:#f5f8fb;
+  --shadow:0 18px 45px rgba(7,23,37,.12);--radius:22px;
+}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--ink);background:#fff;line-height:1.6}
+a{color:inherit;text-decoration:none}
+.container{width:min(1120px,calc(100% - 36px));margin:auto}
+.skip{position:absolute;left:-999px;top:0;background:#fff;padding:10px;z-index:99}.skip:focus{left:10px}
